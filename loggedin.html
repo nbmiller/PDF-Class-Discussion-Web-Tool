@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>PDF Viewer</title>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="clientScript.js"></script>
+    <link href= "style.css" rel= "stylesheet" />
+
+</head>
+
+<body onload= "getUser()">
+   <header id = 'header'>
+     <div id = "image">
+       <div>
+         <div id= 'create'>Create New Lesson:<br>
+         <label for="classN">Class Name (Creates Class if it doesn't already exist.)</label><br>
+        <input type="text" id="classN" placeholder="Name" size="17" name="name"><br>
+        <label for="lessonN">Lesson Name</label><br>
+       <input type="text" id="lessonN" placeholder="Name" size="17" name="name"><br>
+         <label for="url">Google Doc URL (Make Sure Link-Sharing is On!)</label><br>
+        <input type="text" id="url" placeholder="Google Doc URL" size="17" name="url"><br>
+   <!-- <input name="file" type="file" id="btnupload" /> -->
+   <!-- <input type="button" value="Preview" id="btnPrvw"  onclick="readDoc()"/> -->
+   <input type="button" value="Submit" id="submit"  onclick="createLesson()"/>
+</div>
+<!-- <embed type="application/pdf" width="575" height="500" id="embdLink" /> -->
+
+    <!-- <iframe src="https://drive.google.com/file/d/11zT1NZ0L3hCdiCffwj1AGOxOkyw-lZxG/preview" width="640" height="480"></iframe> -->
+    <!-- <embed id="plugin" type="application/x-google-chrome-pdf"  stream-url="chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/d219fe5a-a8ba-414b-87b4-32f19d796a58" headers="Accept-Ranges: bytes
+
+Content-Type: application/pdf
+
+ETag: &quot;11adb-5a189cc9983f4&quot;
+
+Server: Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips PHP/7.3.5 mod_perl/2.0.10 Perl/v5.16.3
+" background-color="0xFF525659" top-toolbar-height="56" javascript="allow" full-frame=""> -->
+
+
+
+     </div>
+
+
+
+
+      <!-- <img src="myLogo.png" class="logo"alt="My Logo" style="auto"> -->
+      <div id = 'middletop'></div>
+   </header>
+   <table style="width:100%"><tr>
+   <td id = left2 width = '10%'></td>
+     <td id = 'middle' width = '80%' class = 'container'>
+       <!-- <iframe width="100%" height="500px" id="embdLink" > -->
+     </iframe>
+
+     </td><td id = 'right' width = '10%' class = 'container'></td>
+     </tr>
+       <tr><td></td><td>
+        </tr>
+     </td><td></td> -->
+
+     <!-- </table>
+
+
+
+
+   <footer>
+     <div id = 'footer2'>
+      &copy; Nick Miller - 2020
+      </div>
+   </footer>
+
+</body>
+</html>

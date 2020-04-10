@@ -1,0 +1,31 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-status-monitor": "^1.2.10",
+    "google-auth-library": "^5.10.1",
+    "googleapis": "^47.0.0",
+    "json-autocorrect": "^0.2.1",
+    "mongoose": "^5.9.3",
+    "mongoose-gen": "^2.1.1",
+    "nltk": "0.0.1",
+    "pandas": "0.0.3",
+    "pynode": "^0.2.0",
+    "python-shell": "^1.0.8",
+    "serve-index": "^1.9.1",
+    "socket.io": "^2.3.0",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
