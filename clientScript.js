@@ -2,7 +2,7 @@
 // var URL = "http://localhost:8080"
 // var URL = 'http://24.207.30.121:3000'
 // var URL = 'http://host-24-207-30-121.public.eastlink.ca:3000'
-var URL = 'https://class-pdf-discussion-tool.herokuapp.com'
+var URL = 'https://class-pdf-discussion-tool.herokuapp.com:3000'
 
 /*********************************************************
 **  GOOGLE SIGN IN
